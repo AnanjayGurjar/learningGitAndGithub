@@ -39,5 +39,16 @@ This readme file contains all the basic git commands
   
   $ git --ammend -m "message"  // changes the message of last commited file
   
+  $ git branch -r  //branches in the remote server i.e. github
+  $ git branch -a  // all the branches
+
+  $ git branch <branch name  // create a new branch
+
+  $ git checkout <branch name>  // switch to given branch from main branch
+
+  $ git checkout - // switch to previous branch
+
+  $ git push --set-upstream origin <branch name> OR $ git push -u origin <branch name> // push the branch to github
+
   
-  
+
